@@ -1,5 +1,5 @@
 ### Hi there, My name is Shaddam <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">,
-A 16 y/o Front-end Developer, Brand Designer, and VR/AR Enthusiast from Indonesia. currently working flexi-time as External Code Reviewer at Dicoding Indonesia.
+A 17 y/o Front-end Developer, Brand Designer, and VR/AR Enthusiast from Indonesia. currently working flexi-time as External Code Reviewer at Dicoding Indonesia.
 - 📖 I’m currently learning NodeJs & ReactJs
 - 📫 How to reach me: You may follow me on [LinkedIn](https://www.linkedin.com/in/shaddamah/),  [Instagram](https://instagram.com/shaddamah) or [Twitter](https://twitter.com/shaddamah) - [@Shaddamah](https://twitter.com/shaddamah)
 
