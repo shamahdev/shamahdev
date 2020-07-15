@@ -17,5 +17,7 @@ Hi there, my name is Shaddam, and also known as Shamah, A 17 y/o Front-end Devel
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 <code><img height="20" src="https://cdn.svgporn.com/logos/sass.svg"></code>
+<code><img height="20" src="https://cdn.svgporn.com/logos/c-sharp.svg"></code>
+<code><img height="20" src="https://cdn.svgporn.com/logos/unity.svg"></code>
 
 ![Piyush's github stats](https://github-readme-stats.vercel.app/api?username=Shaddamah&show_icons=true&hide=["issues"])
