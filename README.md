@@ -3,7 +3,8 @@ A 16 y/o Front-end Developer, Brand Designer, and VR/AR Enthusiast from Indonesi
 - 📖 I’m currently learning NodeJs & ReactJs
 - 📫 How to reach me: You may follow me on [LinkedIn](https://www.linkedin.com/in/shaddamah/),  [Instagram](https://instagram.com/shaddamah) or [Twitter](https://twitter.com/shaddamah) - [@Shaddamah](https://twitter.com/shaddamah)
 
-**Languages:**  
+**Language and Tools:**  
+
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>
 <code><img height="20" src="https://cdn.svgporn.com/logos/webpack.svg"></code>
