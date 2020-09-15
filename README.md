@@ -5,8 +5,8 @@ Hi there, my name is Shaddam, and also known as Shamah, A 17 y/o Front-end Devel
 - 📫 How to reach me: You may follow me on [LinkedIn](https://www.linkedin.com/in/shaddamah/),  [Instagram](https://instagram.com/shaddamah) or [Twitter](https://twitter.com/shaddamah) - [@Shaddamah](https://twitter.com/shaddamah)
 
 **What i'm currently working on:**
+- [Hiedescom 2020 Website Competition](https://github.com/Shaddamah/progreshift)
 - [Digibit Studio Landing Page](https://github.com/digibitstudio/digibit-studio)
-- [Digibit Blog](https://github.com/digibitstudio/digibit-blog)
 - My personal website *coming soon!*
 
 ### Language and Tools
