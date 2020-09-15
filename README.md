@@ -27,4 +27,5 @@ Hi there, my name is Shaddam, and also known as Shamah, A 17 y/o Front-end Devel
 <code><img height="25" src="https://cdn.svgporn.com/logos/visual-studio.svg"></code>
 <code><img height="25" src="https://cdn.svgporn.com/logos/unity.svg"></code>
 
-![My github stats](https://github-readme-stats.vercel.app/api?username=Shaddamah&show_icons=true&hide=["issues"])
+<img src="https://github-readme-stats.vercel.app/api?username=Shaddamah&show_icons=true" height=180 />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaddamah&layout=compact" height=180 />
