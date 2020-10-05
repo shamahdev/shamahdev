@@ -10,7 +10,7 @@ Hi there, my name is Shaddam, and also known as Shamah, A 17 y/o Front-end Devel
 
 ### Language and Tools
 
-**Front-end**
+**Front-end dev**
 
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>
@@ -18,13 +18,16 @@ Hi there, my name is Shaddam, and also known as Shamah, A 17 y/o Front-end Devel
 <code><img height="25" src="https://cdn.svgporn.com/logos/webpack.svg"></code>
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/pwa/pwa.png"></code>
 <code><img height="25" src="https://cdn.svgporn.com/logos/sass.svg"></code>
+<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code>
+<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"></code>
 <code><img height="25" src="https://cdn.svgporn.com/logos/visual-studio-code.svg"></code>
 
-**Game development**
+**Game dev**
 
 <code><img height="25" src="https://cdn.svgporn.com/logos/c-sharp.svg"></code>
 <code><img height="25" src="https://cdn.svgporn.com/logos/visual-studio.svg"></code>
 <code><img height="25" src="https://cdn.svgporn.com/logos/unity.svg"></code>
+<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/godot/godot.png"></code>
 
 <p>
 <img src="https://github-readme-stats.vercel.app/api?username=Shaddamah&show_icons=true" height=180 />
