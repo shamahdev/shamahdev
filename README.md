@@ -2,10 +2,10 @@
 Hi there, my name is Shaddam, and also known as Shamah, A 17 y/o Front-end Developer, Brand Designer, and VR/AR Enthusiast from Indonesia. I'm a Student at [SMK Negeri 1 Cimahi](https://www.smkn1-cmi.sch.id/) and currently working flexi-time as External Code Reviewer at [Dicoding Indonesia](https://www.dicoding.com/).
 - 📖 I’m currently learning NodeJS & ReactJS
 - 💬 Feel free to ask me about anything and everything!
-- 📫 How to reach me: You may follow me on [LinkedIn](https://www.linkedin.com/in/shaddamah/),  [Instagram](https://instagram.com/shaddamah) or [Twitter](https://twitter.com/shaddamah) - [@Shaddamah](https://twitter.com/shaddamah)
+- 📫 How to reach me: You may follow me on [LinkedIn](https://www.linkedin.com/in/shamahdotid/),  [Instagram](https://instagram.com/shamahdotid) or [Twitter](https://twitter.com/shamahdotid) - [@shamahdotid](https://twitter.com/shamahdotid)
 
 **What i'm currently working on:**
-- [Celenganku App](https://github.com/Shaddamah/celenganku-app)
+- [Celenganku App](https://github.com/shamahdotid/celenganku-app)
 - My personal website *coming soon!*
 
 ### Language and Tools
@@ -31,6 +31,6 @@ Hi there, my name is Shaddam, and also known as Shamah, A 17 y/o Front-end Devel
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/godot/godot.png"></code>
 
 <p>
-<img src="https://github-readme-stats.vercel.app/api?username=Shaddamah&show_icons=true" height=180 />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaddamah&layout=compact" height=180 />
+<img src="https://github-readme-stats.vercel.app/api?username=shamahdotid&show_icons=true" height=180 />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamahdotid&layout=compact" height=180 />
 </p>
