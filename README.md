@@ -5,6 +5,7 @@ I'm a self proclamated Front-end developer and have intermediate knowledge on Pr
 - 📖 I’m currently learning Node.js & React
 - 💬 Feel free to ask me about anything and everything!
 - 📫 How to reach me: [Instagram](https://instagram.com/shamahdotid) or [Twitter](https://twitter.com/shamahdotid)
+<br><br/>
 
 <img height="35" src="https://i.imgur.com/f81s2gJ.png">
 
@@ -20,7 +21,7 @@ I'm a self proclamated Front-end developer and have intermediate knowledge on Pr
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"></code>
 <code><img height="25" src="https://cdn.svgporn.com/logos/visual-studio-code.svg"></code>
 
-
+<br>
 <p>
 <img src="https://github-readme-stats.vercel.app/api?username=shamahdotid&theme=algolia&show_icons=true" height=180 />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamahdotid&theme=algolia&slayout=compact" height=180 />
