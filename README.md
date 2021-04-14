@@ -2,6 +2,7 @@
 
 I'm a self proclamated Front-end developer and have intermediate knowledge on Progressive web apps. My favorite programming language is Javascript because it can do a lot of things a lot of different ways. I also write some micro blogs about programming and productivity on my social media.
 
+- Check out my profile and portfolio at [shamah.id](https://shamah.id) (currently inactive)
 - 📖 I’m currently learning Node.js & React
 - 💬 Feel free to ask me about anything and everything!
 - 📫 How to reach me: [Instagram](https://instagram.com/shamahdotid), [Twitter](https://twitter.com/shamahdotid) or any other social media with @shamahdotid username
