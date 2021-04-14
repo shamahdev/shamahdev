@@ -1,14 +1,15 @@
-<img height="40" src="https://i.imgur.com/rKwv4dD.png">
+<img height="35" src="https://i.imgur.com/rKwv4dD.png">
 
 I'm a self proclamated Front-end developer and have intermediate knowledge on Progressive web apps. My favorite programming language is Javascript because it can do a lot of things a lot of different ways. I also 
 
 - 📖 I’m currently learning Node.js & React
 - 💬 Feel free to ask me about anything and everything!
 - 📫 How to reach me: [Instagram](https://instagram.com/shamahdotid) or [Twitter](https://twitter.com/shamahdotid)
+-
 
+<img height="35" src="https://i.imgur.com/f81s2gJ.png">
 
-<img height="40" src="https://i.imgur.com/f81s2gJ.png">
-
+  
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
