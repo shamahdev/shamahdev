@@ -24,6 +24,6 @@ I'm a self proclamated Front-end developer and have intermediate knowledge on Pr
 
 <br>
 <p>
-<img src="https://github-readme-stats.vercel.app/api?username=shamahdotid&theme=dark&show_icons=true" height=180 />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamahdotid&theme=dark&layout=compact" height=180 />
+<img src="https://github-readme-stats.vercel.app/api?username=shamahdotid&show_icons=true" height=180 />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamahdotid&layout=compact" height=180 />
 </p>
