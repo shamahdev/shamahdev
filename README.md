@@ -1,4 +1,4 @@
-<img height="35" src="https://i.imgur.com/rKwv4dD.png">
+Hi there!
 
 I'm a self proclamated Front-end developer and have intermediate knowledge on Progressive web apps. My favorite programming language is Javascript because it can do a lot of things a lot of different ways. I also write some micro blogs about programming and productivity on my social media.
 
@@ -8,9 +8,8 @@ I'm a self proclamated Front-end developer and have intermediate knowledge on Pr
 - 📫 How to reach me: [Instagram](https://instagram.com/shamahdotid), [Twitter](https://twitter.com/shamahdotid) or any other social media with @shamahdotid username
 <br><br/>
 
-<img height="35" src="https://i.imgur.com/f81s2gJ.png">
+Language and Tools:
 
-  
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
