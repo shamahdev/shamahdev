@@ -1,4 +1,4 @@
-## Hi there!
+## Hello there! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="32px">
 
 I'm a self proclamated Front-end developer and have intermediate knowledge on Progressive web apps. My favorite programming language is Javascript because it can do a lot of things a lot of different ways. I also write some micro blogs about programming and productivity on my social media.
 
