@@ -4,8 +4,10 @@
 
 <br />
 
-📈 Programming passioned lifelong learner with 2 year of experience. A Software Engineer focused on Frontend development w/ React Stack and Cloud Architect.
+A programming passioned lifelong learner. Software Engineer with 2 year of experience focused on Frontend development primarily with React tech stack. I'm available for partnership and work projects, as well as private consultations
 
 <br />
+
+📫 You can reach me at [LinkedIn](https://www.linkedin.com/in/shamahdotdev/) or contact@shamah.dev 
 
 💡 Ask me about [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/).
