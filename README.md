@@ -4,7 +4,7 @@
 
 <br />
 
-A programming passioned lifelong learner. Software Engineer with 2 year of experience focused on Frontend development primarily with React tech stack. Additionally, have good knowledge of and hands-on experience with UI/UX. 
+A programming passionate lifelong learner. Software Engineer with 2 year of experience focused on Frontend development primarily with React tech stack. Additionally, have good knowledge of and hands-on experience with UI/UX. 
 
 I'm available for partnership and work projects, as well as private consultations
 
