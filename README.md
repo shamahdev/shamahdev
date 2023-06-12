@@ -4,6 +4,6 @@
 
 <br />
 
-📫 You can reach me at [LinkedIn](https://www.linkedin.com/in/shamahdotdev/) or contact@shamah.dev 
+📫 You can reach me at [LinkedIn](https://www.linkedin.com/in/shamahdotdev/) or contact@shamah.dev
 
 💡 Ask me about [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/).
