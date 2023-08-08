@@ -3,5 +3,16 @@ A Frontend Maestro and a self-proclaimed lifelong leaner. Mostly works with Reac
 
 Open for project-based works, Feel free to inbox me on hello@shamah.dev whether you have a question or just want to say hi!
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+```yaml
+shamahdev: 
+    languages: 
+        - javascript/typescript
+        - c-sharp
+    frameworks:
+        - react 
+        - nextjs
+    learning:
+        - domain driven design
+        - unit testing
+        - mobile development
+```
