@@ -1,9 +1,7 @@
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Vue.js](https://img.shields.io/badge/react-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=black)
+### Hi, my name is Shaddam 🇮🇩
+A Frontend Maestro and a self-proclaimed lifelong leaner. Mostly works with React stacks, but I also enjoy experimenting with different technologies.
 
-### Visit [my portfolio](https://shamah.dev)!
+Open for project-based works, Feel free to inbox me on hello@shamah.dev whether you have a question or just want to say hi!
 
-<br />
-
-📫 You can reach me at [LinkedIn](https://www.linkedin.com/in/shamahdotdev/) or contact@shamah.dev
-
-💡 Ask me about [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/).
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
