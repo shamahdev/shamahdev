@@ -14,5 +14,5 @@ shamahdev:
     learning:
         - domain driven design
         - unit testing
-        - mobile development
+        - web3 development
 ```
