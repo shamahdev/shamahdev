@@ -35,6 +35,14 @@ export default function Home() {
                 volunteering as a speaker, facilitator, and project mentor to
                 help others grow in their careers.
               </p>
+              <Link
+                href="https://drive.google.com/file/d/1FCDG6glGpNq_lsaYyifuYLpolAeU12y2/view?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="text-neutral-100 border border-neutral-100 py-2 px-3 flex w-fit rounded-md text-sm font-semibold items-center justify-center hover:brightness-75 transition-[filter]"
+              >
+                get a copy of my resume
+              </Link>
             </div>
           </div>
           <div className="flex flex-col lg:flex-row gap-4 w-full min-h-[450px]">
@@ -58,14 +66,14 @@ export default function Home() {
                   a decent experience and knowledge with UI & UX Design.
                 </p>
                 <Link
-                  href="#"
+                  href="https://dribbble.com/shamahdotdev"
                   className="text-sm text-neutral-100 underline flex gap-1 items-center"
                 >
                   <ExternalLinkIcon width={16} />
                   behance
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.behance.net/shamahdotdev"
                   className="text-sm text-neutral-100 underline flex gap-1 items-center"
                 >
                   <ExternalLinkIcon width={16} />
@@ -189,21 +197,21 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-4">
             <Link
-              href="#"
+              href="https://www.linkedin.com/in/shamahdev/"
               className="text-sm text-neutral-100 underline flex gap-1 items-center"
             >
               <ExternalLinkIcon width={16} />
               linkedin
             </Link>
             <Link
-              href="#"
+              href="https://github.com/shamahdev"
               className="text-sm text-neutral-100 underline flex gap-1 items-center"
             >
               <ExternalLinkIcon width={16} />
               github
             </Link>
             <Link
-              href="#"
+              href="https://x.com/shamahdev"
               className="text-sm text-neutral-100 underline flex gap-1 items-center"
             >
               <ExternalLinkIcon width={16} />x
