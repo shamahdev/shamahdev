@@ -1,5 +1,5 @@
 {
-  "name": "shamahdev",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.3.0",
-    "@types/react": "18.2.11",
-    "@types/react-dom": "18.2.4",
-    "autoprefixer": "10.4.14",
-    "clsx": "^1.2.1",
-    "eslint": "8.42.0",
-    "eslint-config-next": "13.4.5",
-    "next": "13.4.5",
-    "postcss": "8.4.24",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2",
-    "typescript": "5.1.3"
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.1.3",
+    "lucide-react": "^0.383.0",
+    "matter-js": "^0.19.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
