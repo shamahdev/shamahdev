@@ -1,12 +1,16 @@
+"use client";
+
 import { Carousel } from "@/common/components/Carousel";
 import { Container } from "@/common/components/Container";
+import { Hero } from "@/common/components/Hero";
+import { motion } from "framer-motion";
 import { ExternalLinkIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen px-8 flex-col items-center bg-gradient-to-b from-[#131313] to-neutral-950">
+    <Hero className="flex min-h-screen px-8 flex-col items-center ">
       <Container>
         <div className="w-full flex flex-col gap-24">
           <div className="flex flex-col gap-16 pt-12">
@@ -47,7 +51,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col lg:flex-row gap-4 w-full min-h-[450px]">
-            <div className="bg-neutral-950 border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full">
+            <div className="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full">
               <div className="flex flex-col gap-3">
                 <h3 className="font-semibold text-neutral-100">frontend ✨</h3>
                 <p className="text-sm text-neutral-400 leading-loose">
@@ -59,7 +63,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="bg-neutral-950 border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full">
+            <div className="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full">
               <div className="flex flex-col gap-3">
                 <h3 className="font-semibold text-neutral-100">ui ux</h3>
                 <p className="text-sm text-neutral-400 leading-loose">
@@ -82,7 +86,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="bg-neutral-950 border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full">
+            <div className="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full">
               <div className="flex flex-col gap-3">
                 <h3 className="font-semibold text-neutral-100">vr/ar</h3>
                 <p className="text-sm text-neutral-400 leading-loose">
@@ -117,7 +121,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="bg-neutral-100 rounded-xl py-6 px-8 flex flex-col justify-between w-full">
+            <div className="bg-white/95 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full">
               <div className="flex flex-col gap-3">
                 <h3 className="font-semibold text-neutral-950">brand design</h3>
                 <p className="text-sm text-neutral-700 leading-loose">
@@ -173,7 +177,7 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
               <div className="flex flex-col gap-4 w-full">
-                <div className="bg-neutral-950 border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8">
+                <div className="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8">
                   <Image
                     src="/images/work-salt.png"
                     alt="Salt Indonesia"
@@ -197,7 +201,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="bg-neutral-100 rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8">
+                <div className="bg-white/95 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8">
                   <div className="flex gap-4 items-center">
                     <Image
                       src="/images/work-bdd.png"
@@ -236,7 +240,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="bg-[#15304E] rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden">
+                <div className="bg-[#15304E]/50 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden">
                   <Image
                     src="/images/work-dicoding.png"
                     alt="Dicoding"
@@ -261,25 +265,41 @@ export default function Home() {
                   </div>
                   <span className="h-[240px]" />
                   <div className="flex w-full gap-2 absolute -bottom-8 -right-16">
-                    <Image
-                      src="/images/dicoding/cer-1.png"
-                      alt="Dicoding Academy Reviewer Certificate 2020"
-                      width={360}
-                      height={240}
-                      priority
-                    />
-                    <Image
-                      src="/images/dicoding/cer-2.png"
-                      alt="Dicoding Academy Reviewer Certificate 2021"
-                      width={360}
-                      height={240}
-                      priority
-                    />
+                    <motion.div
+                      initial={{ y: "50%" }}
+                      whileInView={{ y: 0 }}
+                      viewport={{ once: true }}
+                      className="relative"
+                    >
+                      <div className="w-[360px] h-[240px] relative">
+                        <Image
+                          src="/images/dicoding/cer-1.png"
+                          alt="Dicoding Academy Reviewer Certificate 2020"
+                          fill
+                          priority
+                        />
+                      </div>
+                    </motion.div>
+                    <motion.div
+                      initial={{ y: "80%" }}
+                      whileInView={{ y: 0 }}
+                      viewport={{ once: true }}
+                      className="relative"
+                    >
+                      <div className="w-[360px] h-[240px] relative">
+                        <Image
+                          src="/images/dicoding/cer-2.png"
+                          alt="Dicoding Academy Reviewer Certificate 2021"
+                          fill
+                          priority
+                        />
+                      </div>
+                    </motion.div>
                   </div>
                 </div>
               </div>
               <div className="flex flex-col w-full gap-4">
-                <div className="bg-[#E3571B] rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden">
+                <div className="bg-[#E3571B]/90 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden">
                   <Image
                     src="/images/work-smeshub.png"
                     alt="Smeshub"
@@ -304,30 +324,54 @@ export default function Home() {
                   </div>
                   <span className="h-[400px]" />
                   <div className="flex w-full gap-2 absolute -bottom-16 left-0 right-0 items-end justify-center">
-                    <Image
-                      src="/images/smeshub/web-1.png"
-                      alt="Smeshub Website"
-                      width={300}
-                      height={300}
-                      priority
-                    />
-                    <Image
-                      src="/images/smeshub/web-2.png"
-                      alt="Smeshub Website"
-                      width={300}
-                      height={400}
-                      priority
-                    />
-                    <Image
-                      src="/images/smeshub/web-3.png"
-                      alt="Smeshub Website"
-                      width={300}
-                      height={300}
-                      priority
-                    />
+                    <motion.div
+                      initial={{ y: 150 }}
+                      whileInView={{ y: 0 }}
+                      viewport={{ once: true }}
+                      className="relative"
+                    >
+                      <div className="w-[300px] h-[300px] relative">
+                        <Image
+                          src="/images/smeshub/web-1.png"
+                          alt=""
+                          fill
+                          priority
+                        />
+                      </div>
+                    </motion.div>
+                    <motion.div
+                      initial={{ y: 100 }}
+                      whileInView={{ y: 0 }}
+                      viewport={{ once: true }}
+                      className="relative"
+                    >
+                      <div className="w-[300px] h-[400px] relative">
+                        <Image
+                          src="/images/smeshub/web-2.png"
+                          alt=""
+                          fill
+                          priority
+                        />
+                      </div>
+                    </motion.div>
+                    <motion.div
+                      initial={{ y: 150 }}
+                      whileInView={{ y: 0 }}
+                      viewport={{ once: true }}
+                      className="relative"
+                    >
+                      <div className="w-[300px] h-[300px] relative">
+                        <Image
+                          src="/images/smeshub/web-3.png"
+                          alt=""
+                          fill
+                          priority
+                        />
+                      </div>
+                    </motion.div>
                   </div>
                 </div>
-                <div className="bg-neutral-950 border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8">
+                <div className="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8">
                   <Image
                     src="/images/work-linxt.png"
                     alt="Linxt Studio"
@@ -359,7 +403,7 @@ export default function Home() {
       </Container>
 
       <Container>
-        <footer className="w-full flex flex-col gap-4 py-12 pt-24">
+        <footer className="w-full flex flex-col gap-4 py-24">
           <p className="font-bold text-xl text-neutral-100">hello@shamah.dev</p>
           <p className="text-sm text-neutral-400 leading-loose max-w-3xl">
             Open for new opportunity and project-based works, Feel free to inbox
@@ -389,6 +433,6 @@ export default function Home() {
           </div>
         </footer>
       </Container>
-    </main>
+    </Hero>
   );
 }

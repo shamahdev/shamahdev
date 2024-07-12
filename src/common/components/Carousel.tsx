@@ -18,7 +18,7 @@ function ProjectCard({
   url: string;
 }) {
   return (
-    <div className="bg-neutral-[#131313] hover:bg-neutral-950 transition-colors border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full select-none">
+    <div className="bg-black/15 backdrop-blur hover:bg-black/20 transition-colors border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full select-none">
       <div className="flex flex-col gap-3">
         <Link
           href={url}
