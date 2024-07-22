@@ -49,7 +49,7 @@ function ProjectCard({
 
 export function Carousel() {
   return (
-    <div className="gap-4 grid grid-cols-3">
+    <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <ProjectCard
         title="localvocal"
         description="Localvocal is a local brand e-commerce site made with Medusa and Next.js"
