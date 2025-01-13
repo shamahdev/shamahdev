@@ -1,8 +1,27 @@
-### Hi, my name is Shaddam 🇮🇩
+<h3 align="left">Hi, my name is Shaddam 🇮🇩</h3>
 
-![image](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
-![image](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+###
 
-A Frontend Maestro and a self-proclaimed lifelong leaner. Mostly works with React stacks, but I also enjoy experimenting with different technologies.
+<p align="left">Frontend Engineer specializing in React, Next.js, and TypeScript. <br>Love building innovative products and learn new tech, enjoy experimenting with different technologies<br><br>I also enjoy volunteering as a speaker, facilitator, and project mentor to help others grow in their careers.</p>
 
-Open for project-based works, Feel free to inbox me on hello@shamah.dev whether you have a question or just want to say hi!
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="40" alt="tailwindcss logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="40" alt="graphql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="googlecloud logo"  />
+</div>
+
+###
+
+<img src="https://raw.githubusercontent.com/shamahdev/shamahdev/output/snake.svg" alt="Snake animation" />
+
+###
