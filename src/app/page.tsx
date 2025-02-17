@@ -41,7 +41,7 @@ export default function Home() {
                 help others grow in their careers.
               </p>
               <Link
-                href="https://drive.google.com/file/d/1FCDG6glGpNq_lsaYyifuYLpolAeU12y2/view?usp=sharing"
+                href="https://drive.google.com/file/d/10Yk92mfvdn_AENTbfsdsZFRPdEx3TS3f/view?usp=sharing"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="text-neutral-100 border border-neutral-100 py-2 px-3 flex w-fit rounded-md text-sm font-semibold items-center justify-center hover:brightness-75 transition-[filter]"
