@@ -1,6 +1,7 @@
-import { EmblaCarouselType } from "embla-carousel";
-import React, {
-  PropsWithChildren,
+import type { EmblaCarouselType } from "embla-carousel";
+import type React from "react";
+import {
+  type PropsWithChildren,
   useCallback,
   useEffect,
   useState,

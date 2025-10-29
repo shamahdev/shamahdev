@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { ComponentPropsWithoutRef, PropsWithChildren } from "react";
+import type { ComponentPropsWithoutRef, PropsWithChildren } from "react";
 
 export type ContainerProps = PropsWithChildren<{
   maxWidth?: string;
