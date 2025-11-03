@@ -30,7 +30,7 @@ function ProjectCard({
           <ExternalLinkIcon width={16} />
         </Link>
         <p className="text-sm text-neutral-400 leading-loose">{description}</p>
-        <p className="text-xs text-neutral-500">{year}</p>
+        <p className="text-xs text-neutral-100">{year}</p>
         <div className="flex gap-4 py-2">
           {icons?.map((icon) => (
             <Image

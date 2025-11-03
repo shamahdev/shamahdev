@@ -16,6 +16,7 @@ export function WorkExperienceSection() {
               width={60}
               height={60}
               priority
+              sizes="60px"
             />
             <div className="flex flex-col gap-3">
               <h3 className="text-neutral-100">
@@ -39,6 +40,7 @@ export function WorkExperienceSection() {
               width={50}
               height={24}
               priority
+              sizes="50px"
             />
             <div className="flex flex-col gap-3">
               <h3 className="text-neutral-100">
@@ -54,19 +56,21 @@ export function WorkExperienceSection() {
               </p>
             </div>
             <span className="h-[280px]" />
-            <div className="flex w-full gap-2 absolute -bottom-8 -right-16">
+            <div className="flex w-full gap-2 absolute -bottom-8 -right-16 items-end">
               <motion.div
                 initial={{ y: "50%" }}
                 whileInView={{ y: 0 }}
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="w-[360px] h-[280px] relative">
+                <div className="w-[360px] h-[280px] relative" style={{ aspectRatio: '1200/840' }}>
                   <Image
                     src="/images/salt/dashboard.png"
-                    alt="Dicoding Academy Reviewer Certificate 2020"
+                    alt="Salt Indonesia Dashboard"
                     fill
                     priority
+                    sizes="360px"
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
               </motion.div>
@@ -76,12 +80,14 @@ export function WorkExperienceSection() {
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="w-[160px] h-[280px] relative">
+                <div className="w-[160px] relative" style={{ aspectRatio: '390/844' }}>
                   <Image
                     src="/images/salt/app.png"
-                    alt="Dicoding Academy Reviewer Certificate 2021"
+                    alt="Salt Indonesia Mobile App"
                     fill
                     priority
+                    sizes="160px"
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
               </motion.div>
@@ -89,13 +95,21 @@ export function WorkExperienceSection() {
           </div>
           <div className="bg-white/95 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8">
             <div className="flex gap-4 items-center">
-              <Image src="/images/work-bdd.png" alt="BDD" width={50} height={24} priority />
+              <Image 
+                src="/images/work-bdd.png" 
+                alt="BDD" 
+                width={50} 
+                height={24} 
+                priority 
+                sizes="50px"
+              />
               <Image
                 src="/images/work-kampusmerdeka.png"
                 alt="Kampus Merdeka x Dicoding"
-                width={130}
+                width={70}
                 height={24}
                 priority
+                sizes="70px"
               />
               <Image
                 src="/images/work-studidevsecops.png"
@@ -103,17 +117,18 @@ export function WorkExperienceSection() {
                 width={90}
                 height={24}
                 priority
+                sizes="90px"
               />
             </div>
             <div className="flex flex-col gap-3">
               <h3 className="text-neutral-950">
                 <b>speaking & mentoring</b> / 2022 - present
               </h3>
-              <p className="text-sm text-neutral-700 leading-loose">
+              <p className="text-sm text-neutral-800 leading-loose">
                 I speak and facilitate workshop on several programs within frontend and project
                 management expertise in collaboration with Dicoding.
               </p>
-              <p className="text-sm text-neutral-700 leading-loose">
+              <p className="text-sm text-neutral-800 leading-loose">
                 Assist in creating a workshop syllabus for frontend development at Studidevsecops.
               </p>
             </div>
@@ -121,17 +136,24 @@ export function WorkExperienceSection() {
           
         </div>
         <div className="flex flex-col w-full gap-4">
-          <div className="bg-[#E3571B]/90 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden">
-            <Image src="/images/work-smeshub.png" alt="Smeshub" width={100} height={24} priority />
+          <div className="from-white/95 via-white/95 to-[#FF621F]/95 bg-linear-to-b backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden">
+            <Image 
+              src="/images/work-smeshub.png" 
+              alt="Smeshub" 
+              width={100} 
+              height={24} 
+              priority 
+              sizes="100px"
+            />
             <div className="flex flex-col gap-3">
-              <h3 className="text-neutral-100">
+              <h3 className="text-neutral-950">
                 <b>smeshub</b> / 2021 - 2023
               </h3>
-              <p className="text-sm text-neutral-200 leading-loose">
+              <p className="text-sm text-neutral-800 leading-loose">
                 As the first engineering hired at Smeshub, I turned the founder&apos;s vision into a
                 user-friendly MVP through full stack development.
               </p>
-              <p className="text-sm text-neutral-200 leading-loose">
+              <p className="text-sm text-neutral-800 leading-loose">
                 Later, after our team grew, I assigned as a Frontend Engineer, I led a team and
                 delivering high-quality front-end solutions.
               </p>
@@ -144,8 +166,15 @@ export function WorkExperienceSection() {
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="w-[300px] h-[300px] relative">
-                  <Image src="/images/smeshub/web-1.png" alt="" fill priority />
+                <div className="w-[300px] relative" style={{ aspectRatio: '1074/1080' }}>
+                  <Image 
+                    src="/images/smeshub/web-1.png" 
+                    alt="Smeshub Platform - Profile Dashboard" 
+                    fill 
+                    priority 
+                    sizes="300px"
+                    style={{ objectFit: 'cover' }}
+                  />
                 </div>
               </motion.div>
               <motion.div
@@ -154,8 +183,15 @@ export function WorkExperienceSection() {
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="w-[300px] h-[400px] relative">
-                  <Image src="/images/smeshub/web-2.png" alt="" fill priority />
+                <div className="w-[300px] relative" style={{ aspectRatio: '926/1288' }}>
+                  <Image 
+                    src="/images/smeshub/web-2.png" 
+                    alt="Smeshub Platform - Landing Page" 
+                    fill 
+                    priority 
+                    sizes="300px"
+                    style={{ objectFit: 'cover' }}
+                  />
                 </div>
               </motion.div>
               <motion.div
@@ -164,8 +200,15 @@ export function WorkExperienceSection() {
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="w-[300px] h-[300px] relative">
-                  <Image src="/images/smeshub/web-3.png" alt="" fill priority />
+                <div className="w-[300px] relative" style={{ aspectRatio: '1084/1108' }}>
+                  <Image 
+                    src="/images/smeshub/web-3.png" 
+                    alt="Smeshub Platform - Enterprise Page" 
+                    fill 
+                    priority 
+                    sizes="300px"
+                    style={{ objectFit: 'cover' }}
+                  />
                 </div>
               </motion.div>
             </div>
@@ -177,6 +220,7 @@ export function WorkExperienceSection() {
               width={100}
               height={24}
               priority
+              sizes="100px"
             />
             <div className="flex flex-col gap-3">
               <h3 className="text-neutral-100">
@@ -192,19 +236,21 @@ export function WorkExperienceSection() {
               </p>
             </div>
             <span className="h-[240px]" />
-            <div className="flex w-full gap-2 absolute -bottom-8 -right-16">
+            <div className="flex w-full gap-2 absolute bottom-0">
               <motion.div
                 initial={{ y: "50%" }}
                 whileInView={{ y: 0 }}
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="w-[360px] h-[240px] relative">
+                <div className="w-[280px] relative" style={{ aspectRatio: '648/432' }}>
                   <Image
                     src="/images/dicoding/cer-1.png"
                     alt="Dicoding Academy Reviewer Certificate 2020"
                     fill
                     priority
+                    sizes="280px"
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
               </motion.div>
@@ -214,12 +260,14 @@ export function WorkExperienceSection() {
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="w-[360px] h-[240px] relative">
+                <div className="w-[280px] relative" style={{ aspectRatio: '648/432' }}>
                   <Image
                     src="/images/dicoding/cer-2.png"
                     alt="Dicoding Academy Reviewer Certificate 2021"
                     fill
                     priority
+                    sizes="280px"
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
               </motion.div>

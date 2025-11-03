@@ -88,70 +88,92 @@ export default function Home() {
                   Companies i&apos;ve been work with:
                 </p>
               </div>
-              <div className="flex flex-wrap w-full gap-4">
-                <Image src="/images/ar-nestle.png" alt="Nestle" width={63.5} height={40} priority />
-                <Image
-                  src="/images/ar-sentral.png"
-                  alt="Sentral Tunjungan"
-                  width={66.5}
-                  height={40}
-                  priority
-                />
-                <Image
-                  src="/images/ar-wyeth.png"
-                  alt="Wyeth Nutrition"
-                  width={135}
-                  height={40}
-                  priority
-                />
+              <div className="flex flex-wrap w-full gap-4 items-center">
+                <div className="relative" style={{ width: 63.5, aspectRatio: 63.5 / 40 }}>
+                  <Image
+                    src="/images/ar-nestle.png"
+                    alt="Nestle"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </div>
+                <div className="relative" style={{ width: 66.5, aspectRatio: 66.5 / 40 }}>
+                  <Image
+                    src="/images/ar-sentral.png"
+                    alt="Sentral Tunjungan"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </div>
+                <div className="relative" style={{ width: 135, aspectRatio: 135 / 40 }}>
+                  <Image
+                    src="/images/ar-wyeth.png"
+                    alt="Wyeth Nutrition"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </div>
               </div>
             </div>
             <div className="bg-white/95 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full">
               <div className="flex flex-col gap-3">
                 <h3 className="font-semibold text-neutral-950">brand design</h3>
-                <p className="text-sm text-neutral-700 leading-loose">
+                <p className="text-sm text-neutral-800 leading-loose">
                   I&apos;ve designed 20+ logo & brand for companies around the world, 3 full brand
                   identity client from logo to stationery and social media design.
                   <br className="mb-4" />
                   Featured brand logo i&apos;ve made:
                 </p>
               </div>
-              <div className="flex flex-wrap w-full gap-4">
-                <Image
-                  src="/images/brand-smeshub.png"
-                  alt="Smeshub"
-                  width={85.5}
-                  height={40}
-                  priority
-                />
-                <Image
-                  src="/images/brand-mantenkuh.png"
-                  alt="Mantenkuh"
-                  width={106}
-                  height={40}
-                  priority
-                />
-                <Image
-                  src="/images/brand-siomay.png"
-                  alt="Somay Lonjong"
-                  width={58.5}
-                  height={40}
-                  priority
-                />
-                <Image
-                  src="/images/brand-printingmart.png"
-                  alt="printingmart"
-                  width={114.5}
-                  height={40}
-                  priority
-                />
-                <Image
-                  src="/images/brand-artire.png"
-                  alt="Smeshub"
-                  width={70}
-                  height={40}
-                  priority
-                />
+              <div className="flex flex-wrap w-full gap-4 items-center">
+                <div className="relative" style={{ width: 96, aspectRatio: 96 / 24 }}>
+                  <Image
+                    src="/images/work-smeshub.png"
+                    alt="Smeshub"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </div>
+                <div className="relative" style={{ width: 106, aspectRatio: 106 / 40 }}>
+                  <Image
+                    src="/images/brand-mantenkuh.png"
+                    alt="Mantenkuh"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </div>
+                <div className="relative" style={{ width: 58.5, aspectRatio: 58.5 / 40 }}>
+                  <Image
+                    src="/images/brand-siomay.png"
+                    alt="Somay Lonjong"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </div>
+                <div className="relative" style={{ width: 114.5, aspectRatio: 114.5 / 40 }}>
+                  <Image
+                    src="/images/brand-printingmart.png"
+                    alt="printingmart"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </div>
+                <div className="relative" style={{ width: 70, aspectRatio: 70 / 40 }}>
+                  <Image
+                    src="/images/brand-artire.png"
+                    alt="Smeshub"
+                    fill
+                    style={{ objectFit: "contain" }}
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
