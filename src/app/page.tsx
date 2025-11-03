@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Hero className="flex min-h-screen px-8 flex-col items-center">
       <Container>
-        <div className="w-full flex flex-col gap-24">
+        <main className="w-full flex flex-col gap-24">
           <div className="flex flex-col gap-16 pt-12">
             <Image
               src="/images/shamahdev.png"
@@ -182,7 +182,7 @@ export default function Home() {
             <h2 className="text-lg font-semibold text-neutral-100">selected projects</h2>
             <Carousel />
           </div>
-        </div>
+        </main>
       </Container>
 
       <Container>

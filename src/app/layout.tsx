@@ -75,8 +75,8 @@ export default function RootLayout({
           secondaryFont.variable
         )}
       >
-        <SpeedInsights />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
