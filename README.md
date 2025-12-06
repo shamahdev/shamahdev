@@ -11,11 +11,11 @@ I am a frontend engineer specializing in React, Next.js, and TypeScript. I build
 <!--START_SECTION:waka-->
 
 ```txt
-TSX          21 hrs 51 mins  █████████████████████░░░░   84.30 %
-Typescript   2 hrs 11 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.41 %
-Json         1 hrs 8 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 %
-Unknown      0 hrs 21 mins   ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.32 %
-CSS          0 hrs 20 mins   ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.29 %
+TSX          21 hrs 50 mins  █████████████████████░░░░   83.65 %
+Typescript   1 hrs 57 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   07.48 %
+Json         1 hrs 18 mins   █▒░░░░░░░░░░░░░░░░░░░░░░░   05.00 %
+CSS          0 hrs 42 mins   ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.70 %
+Unknown      0 hrs 14 mins   ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.89 %
 ```
 
 <!--END_SECTION:waka-->
