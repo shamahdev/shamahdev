@@ -11,11 +11,11 @@ I am a software engineer specialized in frontend development with React & TypeSc
 <!--START_SECTION:waka-->
 
 ```txt
-TSX          17 hrs 35 mins        ███████████████████▓░░░░░   79.03 %
-Typescript   3 hrs 32 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.88 %
-Json         0 hrs 21 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.59 %
-YAML         0 hrs 17 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.30 %
-Bash         0 hrs 9 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.66 %
+TSX          17 hrs 57 mins        ████████████████████▒░░░░   81.91 %
+Typescript   2 hrs 58 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.54 %
+Json         0 hrs 20 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.54 %
+YAML         0 hrs 17 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.32 %
+Bash         0 hrs 9 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.67 %
 ```
 
 <!--END_SECTION:waka-->
