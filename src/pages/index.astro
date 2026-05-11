@@ -1,0 +1,281 @@
+---
+import { getCollection } from "astro:content";
+import { Icon } from "astro-icon/components";
+import Container from "@/components/Container.astro";
+import Hero from "@/components/Hero.astro";
+import ProjectsCarousel from "@/components/ProjectsCarousel.astro";
+import WorkExperienceSection from "@/components/WorkExperienceSection.astro";
+import Layout from "@/layouts/Layout.astro";
+
+const projects = await getCollection("projects");
+---
+
+<Layout>
+	<Hero class="flex min-h-screen px-8 flex-col items-center">
+		<Container>
+			<main class="w-full flex flex-col gap-24">
+				<div class="flex flex-col gap-16 pt-12">
+					<img
+						src="/images/shamahdev.png"
+						alt="Shaddam Amru Hasibuan"
+						width={32}
+						height={32}
+						loading="eager"
+						decoding="async"
+					/>
+					<div class="flex flex-col py-8 gap-2">
+						<h1 class="text-[42px] text-neutral-100 font-bold">
+							Shaddam Amru Hasibuan
+						</h1>
+						<p class="text-neutral-100 text-2xl font-secondary">
+							Frontend Product Engineer
+							<span class="text-neutral-400">— based in Indonesia</span>
+						</p>
+					</div>
+					<div class="flex flex-col gap-4">
+						<h2 class="text-lg font-semibold text-neutral-100">about me</h2>
+						<p class="text-neutral-400 max-w-3xl leading-loose">
+							Hey, im Shaddam 👋, also known as Shamah. Love building innovative
+							products and learn new blazing fast technologies. I enjoy
+							volunteering as a speaker, and mentor to help others grow in their
+							careers.
+						</p>
+						<a
+							href="https://drive.google.com/file/d/1z-Jsr22Sc1EyFJDuhJV7Td4zxnk96KTQ/view?usp=sharing"
+							rel="noopener noreferrer"
+							target="_blank"
+							class="text-neutral-100 border border-neutral-100 py-2 px-3 flex w-fit rounded-md text-sm font-semibold items-center justify-center hover:brightness-75 transition-[filter]"
+						>
+							get a copy of my resume
+						</a>
+					</div>
+				</div>
+
+				<div class="flex flex-col lg:flex-row gap-4 w-full min-h-[450px]">
+					<div
+						class="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full"
+					>
+						<div class="flex flex-col gap-3">
+							<h3 class="font-semibold text-neutral-100">frontend ✨</h3>
+							<p class="text-sm text-neutral-400 leading-loose">
+								Frontend development is my specialty and expertise.
+								<br class="mb-4" />I have extensive professional experience and
+								can effectively function as a lead, work with a team, or even
+								operate independently to deliver results quickly.
+							</p>
+						</div>
+					</div>
+					<div
+						class="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full"
+					>
+						<div class="flex flex-col gap-3">
+							<h3 class="font-semibold text-neutral-100">ui ux</h3>
+							<p class="text-sm text-neutral-400 leading-loose">
+								As i'm passionated at building products, i'm having a decent
+								experience and knowledge with UI & UX Design.
+							</p>
+							<a
+								href="https://dribbble.com/shamahdotdev"
+								class="text-sm text-neutral-100 underline flex gap-1 items-center"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<Icon name="lucide:external-link" size={16} />
+								behance
+							</a>
+							<a
+								href="https://www.behance.net/shamahdotdev"
+								class="text-sm text-neutral-100 underline flex gap-1 items-center"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								<Icon name="lucide:external-link" size={16} />
+								dribbble
+							</a>
+						</div>
+					</div>
+					<div
+						class="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full"
+					>
+						<div class="flex flex-col gap-3">
+							<h3 class="font-semibold text-neutral-100">vr/ar</h3>
+							<p class="text-sm text-neutral-400 leading-loose">
+								On my early career from 2019, I often do side hustling and
+								working on project as a freelance for companies. Im used to work
+								with Unity, Vuforia and Spark AR.
+								<br class="mb-4" />
+								Companies i've been work with:
+							</p>
+						</div>
+						<div class="flex flex-wrap w-full gap-4 items-center">
+							<div
+								class="relative"
+								style="width: 63.5px; aspect-ratio: 63.5 / 40;"
+							>
+								<img
+									src="/images/ar-nestle.png"
+									alt="Nestle"
+									width={64}
+									height={40}
+									loading="eager"
+									decoding="async"
+									style="object-fit: contain;"
+								/>
+							</div>
+							<div
+								class="relative"
+								style="width: 66.5px; aspect-ratio: 66.5 / 40;"
+							>
+								<img
+									src="/images/ar-sentral.png"
+									alt="Sentral Tunjungan"
+									width={67}
+									height={40}
+									loading="eager"
+									decoding="async"
+									style="object-fit: contain;"
+								/>
+							</div>
+							<div
+								class="relative"
+								style="width: 135px; aspect-ratio: 135 / 40;"
+							>
+								<img
+									src="/images/ar-wyeth.png"
+									alt="Wyeth Nutrition"
+									width={135}
+									height={40}
+									loading="eager"
+									decoding="async"
+									style="object-fit: contain;"
+								/>
+							</div>
+						</div>
+					</div>
+					<div
+						class="bg-white/95 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full"
+					>
+						<div class="flex flex-col gap-3">
+							<h3 class="font-semibold text-neutral-950">brand design</h3>
+							<p class="text-sm text-neutral-800 leading-loose">
+								I've designed 20+ logo & brand for companies around the world, 3
+								full brand identity client from logo to stationery and social
+								media design.
+								<br class="mb-4" />
+								Featured brand logo i've made:
+							</p>
+						</div>
+						<div class="flex flex-wrap w-full gap-4 items-center">
+							<div class="relative" style="width: 96px; aspect-ratio: 96 / 24;">
+								<img
+									src="/images/work-smeshub.png"
+									alt="Smeshub"
+									width={96}
+									height={24}
+									loading="eager"
+									decoding="async"
+									style="object-fit: contain;"
+								/>
+							</div>
+							<div
+								class="relative"
+								style="width: 106px; aspect-ratio: 106 / 40;"
+							>
+								<img
+									src="/images/brand-mantenkuh.png"
+									alt="Mantenkuh"
+									width={106}
+									height={40}
+									loading="eager"
+									decoding="async"
+									style="object-fit: contain;"
+								/>
+							</div>
+							<div
+								class="relative"
+								style="width: 58.5px; aspect-ratio: 58.5 / 40;"
+							>
+								<img
+									src="/images/brand-siomay.png"
+									alt="Somay Lonjong"
+									width={59}
+									height={40}
+									loading="eager"
+									decoding="async"
+									style="object-fit: contain;"
+								/>
+							</div>
+							<div
+								class="relative"
+								style="width: 114.5px; aspect-ratio: 114.5 / 40;"
+							>
+								<img
+									src="/images/brand-printingmart.png"
+									alt="printingmart"
+									width={115}
+									height={40}
+									loading="eager"
+									decoding="async"
+									style="object-fit: contain;"
+								/>
+							</div>
+							<div class="relative" style="width: 70px; aspect-ratio: 70 / 40;">
+								<img
+									src="/images/brand-artire.png"
+									alt="Artire"
+									width={70}
+									height={40}
+									loading="eager"
+									decoding="async"
+									style="object-fit: contain;"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<WorkExperienceSection />
+				<ProjectsCarousel projects={projects} />
+			</main>
+		</Container>
+
+		<Container>
+			<footer class="w-full flex flex-col gap-4 py-24">
+				<p class="font-bold text-xl text-neutral-100">hello@shamah.dev</p>
+				<p class="text-sm text-neutral-400 leading-loose max-w-3xl">
+					Open for new opportunity and project-based works, Feel free to inbox
+					me whether you have a question or just want to say hi!
+				</p>
+				<div class="flex items-center gap-4 flex-wrap">
+					<a
+						href="https://www.linkedin.com/in/shamahdev/"
+						class="text-sm text-neutral-100 underline flex gap-1 items-center"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						<Icon name="lucide:external-link" size={16} />
+						linkedin
+					</a>
+					<a
+						href="https://github.com/shamahdev"
+						class="text-sm text-neutral-100 underline flex gap-1 items-center"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						<Icon name="lucide:external-link" size={16} />
+						github
+					</a>
+					<a
+						href="https://x.com/shamahdev"
+						class="text-sm text-neutral-100 underline flex gap-1 items-center"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						<Icon name="lucide:external-link" size={16} />x
+					</a>
+					<a href="/blog" class="text-sm text-neutral-100 underline"> blog </a>
+				</div>
+			</footer>
+		</Container>
+	</Hero>
+</Layout>

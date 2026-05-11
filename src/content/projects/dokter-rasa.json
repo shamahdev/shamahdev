@@ -1,0 +1,13 @@
+{
+  "title": "dokter rasa",
+  "description": "Yet another restaurant list progressive web app with review and bookmark feature.",
+  "year": 2021,
+  "url": "https://dokterrasa.web.app/",
+  "icons": [
+    "/images/icon/ic-webpack.png",
+    "/images/icon/ic-pwa.png",
+    "/images/icon/ic-sass.png",
+    "/images/icon/ic-jasmine.png",
+    "/images/icon/ic-karma.png"
+  ]
+}

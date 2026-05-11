@@ -1,0 +1,11 @@
+{
+  "title": "dokter kimo",
+  "description": "Game-based learning mobile app for Kihajar Mobile App Competition 2020..",
+  "year": 2020,
+  "url": "https://github.com/shamahdev/dokter-kimo",
+  "icons": [
+    "/images/icon/ic-unity.png",
+    "/images/icon/ic-csharp.png",
+    "/images/icon/ic-animate.png"
+  ]
+}

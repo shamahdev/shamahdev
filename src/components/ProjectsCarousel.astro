@@ -1,0 +1,125 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Icon } from "astro-icon/components";
+
+type Project = CollectionEntry<"projects">;
+
+type Props = {
+  projects: Project[];
+};
+
+const { projects } = Astro.props;
+
+const sorted = [...projects].sort((a, b) => b.data.year - a.data.year);
+---
+
+<div class="flex flex-col gap-4">
+  <h2 class="text-lg font-semibold text-neutral-100">selected projects</h2>
+
+  <div class="w-full" data-projects-embla>
+    <div class="overflow-hidden" data-embla-viewport>
+      <div class="flex -ml-4" data-embla-container>
+        {
+          sorted.map((project) => (
+            <div class="pl-4 flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.3333%]">
+              <div class="bg-black/15 backdrop-blur hover:bg-black/20 transition-colors border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full select-none h-full">
+                <div class="flex flex-col gap-3">
+                  <a
+                    href={project.data.url}
+                    class="font-semibold text-neutral-100 flex w-full justify-between items-center"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    {project.data.title}
+                    <Icon name="lucide:external-link" size={16} />
+                  </a>
+                  <p class="text-sm text-neutral-400 leading-loose">
+                    {project.data.description}
+                  </p>
+                  <p class="text-xs text-neutral-100">{project.data.year}</p>
+                  <div class="flex gap-4 py-2 shrink-0 flex-wrap">
+                    {project.data.icons?.map((icon) => (
+                      <img
+                        src={icon}
+                        alt=""
+                        width={
+                          icon === "/images/icon/ic-midtrans.png" ? 72 : 20
+                        }
+                        height={20}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div
+      class="flex gap-2 pt-4"
+      data-embla-dots
+      aria-label="Project carousel pagination"
+    >
+    </div>
+  </div>
+</div>
+
+<script type="module">
+  import EmblaCarousel from "embla-carousel";
+
+  const root = document.querySelector("[data-projects-embla]");
+  if (!root) {
+    // Component not on this page.
+    return;
+  }
+
+  const viewport = root.querySelector("[data-embla-viewport]");
+  const dotsRoot = root.querySelector("[data-embla-dots]");
+  if (!(viewport instanceof HTMLElement))
+    throw new Error("Projects carousel viewport missing");
+  if (!(dotsRoot instanceof HTMLElement))
+    throw new Error("Projects carousel dots missing");
+
+  const embla = EmblaCarousel(viewport, {
+    align: "start",
+    loop: false,
+    dragFree: false,
+  });
+
+  const makeDot = (index) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className =
+      'h-2 w-2 rounded-full bg-neutral-700 aria-[current="true"]:bg-neutral-100 transition-colors';
+    btn.setAttribute("aria-label", `Go to slide ${index + 1}`);
+    btn.addEventListener("click", () => embla.scrollTo(index));
+    return btn;
+  };
+
+  const renderDots = () => {
+    dotsRoot.innerHTML = "";
+    const snaps = embla.scrollSnapList();
+    snaps.forEach((_, i) => dotsRoot.appendChild(makeDot(i)));
+  };
+
+  const setSelectedDot = () => {
+    const selected = embla.selectedScrollSnap();
+    dotsRoot.querySelectorAll("button").forEach((btn, i) => {
+      btn.setAttribute("aria-current", i === selected ? "true" : "false");
+    });
+  };
+
+  renderDots();
+  setSelectedDot();
+
+  embla.on("reInit", () => {
+    renderDots();
+    setSelectedDot();
+  });
+
+  embla.on("select", setSelectedDot);
+</script>

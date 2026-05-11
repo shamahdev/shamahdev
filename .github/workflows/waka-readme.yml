@@ -9,7 +9,7 @@ on:
 
 jobs:
   update-readme:
-    name: Update waka-readme
+    name: Update stats
     runs-on: ubuntu-latest
     steps:
       - uses: athul/waka-readme@master # this action name

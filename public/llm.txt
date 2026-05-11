@@ -1,0 +1,72 @@
+# shamah.dev — Shaddam Amru Hasibuan
+
+## About
+
+Hey, I'm Shaddam 👋, also known as Shamah. Love building innovative products and learn new blazing fast technologies. I enjoy volunteering as a speaker, and mentor to help others grow in their careers.
+
+## Contact
+
+- Email: hello@shamah.dev
+- LinkedIn: https://www.linkedin.com/in/shamahdev/
+- GitHub: https://github.com/shamahdev
+- X: https://x.com/shamahdev
+
+## Expertise
+
+### Frontend ✨
+Frontend development is my specialty and expertise. I have extensive professional experience and can effectively function as a lead, work with a team, or even operate independently to deliver results quickly.
+
+### UI/UX
+As I'm passionate at building products, I'm having a decent experience and knowledge with UI & UX Design.
+
+- Behance: https://www.behance.net/shamahdotdev
+- Dribbble: https://dribbble.com/shamahdotdev
+
+### VR/AR
+On my early career from 2019, I often do side hustling and working on project as a freelance for companies. I'm used to work with Unity, Vuforia and Spark AR.
+
+Companies I've worked with: Nestle, Sentral Tunjungan, Wyeth Nutrition
+
+### Brand Design
+I've designed 20+ logo & brand for companies around the world, 3 full brand identity client from logo to stationery and social media design.
+
+Featured brands: Smeshub, Mantenkuh, Somay Lonjong, printingmart, Artire
+
+## Work Experience
+
+### airmas group — 2025 - present
+As a Frontend Engineer, I built and launched a new user interface for the AyooMall e-commerce platform using Next.js, significantly optimizing performance and business workflows. I plan to take on more complex challenges, from mastering large-scale system architecture to driving cross-functional initiatives.
+
+### salt — 2023 - 2025
+Brought on board for SALT new branch in Bandung as a mid level front-end engineer. Worked using React.js for coding and take care of code quality and deployment reliability by creating unit tests. Trusted by companies to work as an outsource in renowned companies like Telkomsel.
+
+### speaking & mentoring — 2022 - present
+I speak and facilitate workshop on several programs within frontend and project management expertise in collaboration with Dicoding. Assist in creating a workshop syllabus for frontend development at Studidevsecops.
+
+### smeshub — 2021 - 2023
+As the first engineering hired at Smeshub, I turned the founder's vision into a user-friendly MVP through full stack development. Later, after our team grew, I was assigned as a Frontend Engineer, I led a team and delivering high-quality front-end solutions.
+
+### dicoding — 2020 - present
+As an External Code Reviewer, I have successfully provided technical assistance and reviewed over 1200 project submissions from students. I have helped many individuals graduate from Dicoding's courses, earning high ratings from satisfied students.
+
+## Projects
+
+### localvocal (2023)
+Localvocal is a local brand e-commerce site made with Medusa and Next.js.
+https://github.com/localvocalid
+Tech: Medusa, Next.js, React, Tailwind, Postgres, DigitalOcean
+
+### celenganku (2021)
+Students finance management or money saving progressive web app.
+https://github.com/shamahdev/celenganku
+Tech: Firebase, Webpack, PWA, Tailwind, Midtrans
+
+### dokter rasa (2021)
+Yet another restaurant list progressive web app with review and bookmark feature.
+https://dokterrasa.web.app/
+Tech: Webpack, PWA, Sass, Jasmine, Karma
+
+### dokter kimo (2020)
+Game-based learning mobile app for Kihajar Mobile App Competition 2020.
+https://github.com/shamahdev/dokter-kimo
+Tech: Unity, C#, Animate

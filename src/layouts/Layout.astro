@@ -1,0 +1,66 @@
+---
+import "../styles/global.css";
+import SpeedInsights from "@vercel/speed-insights/astro";
+
+type Props = {
+  title?: string;
+  description?: string;
+};
+
+const title = Astro.props.title ?? "shamah.dev | Shaddam Amru Hasibuan";
+const description =
+  Astro.props.description ??
+  "Frontend Product Engineer based in Indonesia. Expertise in React, Next.js";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <meta name="keywords" content="Shaddam Amru Hasibuan, shamah.dev, Frontend Engineer, React Developer, Next.js, Indonesia" />
+    <meta name="author" content="Shaddam Amru Hasibuan" />
+    <meta name="creator" content="Shaddam Amru Hasibuan" />
+    <meta name="publisher" content="shamah.dev" />
+
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-icon.png" />
+
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content="Frontend Product Engineer based in Indonesia. Explore projects and expertise in web, brand, and immersive technology." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="shamah.dev" />
+    <meta property="og:url" content="https://shamah.dev" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      property="og:image"
+      content="https://dynamic-og-image-generator.vercel.app/api/generate?title=shamah.dev&author=Shaddam+Amru+Hasibuan&websiteUrl=https%3A%2F%2Fshamah.dev&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F53106916&theme=default"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta
+      name="twitter:description"
+      content="Frontend Product Engineer based in Indonesia. Explore projects and expertise in web, brand, and immersive technology."
+    />
+    <meta name="twitter:creator" content="@shamahdev" />
+    <meta
+      name="twitter:image"
+      content="https://dynamic-og-image-generator.vercel.app/api/generate?title=shamah.dev&author=Shaddam+Amru+Hasibuan&websiteUrl=https%3A%2F%2Fshamah.dev&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F53106916&theme=default"
+    />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <meta name="application-name" content="shamah.dev" />
+    <meta name="category" content="Technology" />
+  </head>
+  <body class="font-antialiased font-primary">
+    <slot />
+    <SpeedInsights />
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "title": "localvocal",
+  "description": "Localvocal is a local brand e-commerce site made with Medusa and Next.js",
+  "year": 2023,
+  "url": "https://github.com/localvocalid",
+  "icons": [
+    "/images/icon/ic-medusa.png",
+    "/images/icon/ic-nextjs.png",
+    "/images/icon/ic-react.png",
+    "/images/icon/ic-tailwind.png",
+    "/images/icon/ic-postgres.png",
+    "/images/icon/ic-digitalocean.png"
+  ]
+}

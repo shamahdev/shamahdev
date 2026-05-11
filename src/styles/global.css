@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "@fontsource-variable/plus-jakarta-sans";
+@import "@fontsource/libre-baskerville";
+
+html,
+body {
+  box-sizing: border-box;
+  max-width: 100vw;
+  min-height: 100vh;
+  font-family: var(--primary-font), Arial, Helvetica, sans-serif;
+  word-spacing: -0.05em;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+/* Match previous app font vars. */
+:root {
+  --primary-font: "Plus Jakarta Sans Variable";
+  --secondary-font: "Libre Baskerville";
+}
+
+::-ms-reveal {
+  display: none;
+}

@@ -1,39 +1,34 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "ts": "tsc --noEmit --incremental",
-    "lint": "biome lint --write",
-    "check": "biome check --write"
-  },
-  "dependencies": {
-    "@biomejs/biome": "^2.3.2",
-    "@vercel/speed-insights": "^1.2.0",
-    "babel-plugin-react-compiler": "^1.0.0",
-    "clsx": "^2.1.1",
-    "embla-carousel": "^8.1.3",
-    "embla-carousel-react": "^8.1.3",
-    "framer-motion": "^12.23.24",
-    "lucide-react": "^0.548.0",
-    "mini-svg-data-uri": "^1.4.4",
-    "next": "16.0.7",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "tailwind-merge": "^3.3.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.16",
-    "@types/node": "^24.9.2",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "eslint": "^9.38.0",
-    "eslint-config-next": "16.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^4.1.16",
-    "typescript": "^5"
-  }
+	"name": "shamahdev",
+	"type": "module",
+	"version": "0.0.1",
+	"engines": {
+		"node": ">=22.12.0"
+	},
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/mdx": "^5.0.4",
+		"@astrojs/vercel": "^10.0.6",
+		"@fontsource-variable/plus-jakarta-sans": "^5.2.8",
+		"@fontsource/libre-baskerville": "^5.2.10",
+		"@iconify-json/lucide": "^1.2.106",
+		"@tailwindcss/typography": "^0.5.19",
+		"@tailwindcss/vite": "^4.3.0",
+		"@vercel/speed-insights": "^2.0.0",
+		"astro": "^6.3.1",
+		"astro-icon": "^1.1.5",
+		"clsx": "^2.1.1",
+		"embla-carousel": "^8.6.0",
+		"motion": "^12.38.0",
+		"tailwind-merge": "^3.6.0",
+		"tailwindcss": "^4.3.0"
+	},
+	"overrides": {
+		"path-to-regexp": "6.3.0"
+	}
 }
