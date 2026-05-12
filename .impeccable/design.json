@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-12T00:00:00.000Z",
+  "title": "Design System: shamah.dev",
+  "extensions": {
+    "colorMeta": {
+      "bg-ink": { "role": "background", "displayName": "Ink", "canonical": "#100F0F" },
+      "base": { "role": "surface", "displayName": "Base", "canonical": "#1C1B1A" },
+      "surface": { "role": "border", "displayName": "Surface", "canonical": "#282726" },
+      "overlay": { "role": "surface", "displayName": "Overlay", "canonical": "#343331" },
+      "text-primary": { "role": "text", "displayName": "Text", "canonical": "#CECDC3" },
+      "text-secondary": { "role": "text", "displayName": "Subtle", "canonical": "#6F6E6C" },
+      "text-muted": { "role": "text", "displayName": "Muted", "canonical": "#878580" },
+      "paper": { "role": "surface", "displayName": "Paper", "canonical": "#FFFCF0" },
+      "text-on-paper": { "role": "text", "displayName": "Ink (on Paper)", "canonical": "#100F0F" },
+      "accent-orange": { "role": "primary", "displayName": "Flexoki Orange", "canonical": "#DA702C" },
+      "accent-blue": { "role": "secondary", "displayName": "Flexoki Blue", "canonical": "#4385BE" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero name headline only." },
+      "headline": { "displayName": "Headline", "purpose": "Page-level headings (blog index)." },
+      "title": { "displayName": "Title", "purpose": "Section headings, card titles, project names." },
+      "body": { "displayName": "Body", "purpose": "Running text, descriptions." },
+      "label": { "displayName": "Label", "purpose": "Tagline under hero name, editorial accent." },
+      "caption": { "displayName": "Caption", "purpose": "Dates, years, metadata." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "reveal-easing", "value": "cubic-bezier(0.36, 0, 0.66, 1.56)", "purpose": "Scroll reveal easing (backInOut)." },
+      { "name": "reveal-duration", "value": "0.5s", "purpose": "Scroll reveal animation duration." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Primary CTA. Transparent with Text-colored border outline.",
+      "html": "<button class=\"ds-btn-outline\">get a copy of my resume</button>",
+      "css": ".ds-btn-outline { display: flex; align-items: center; justify-content: center; width: fit-content; padding: 8px 12px; border: 1px solid #CECDC3; border-radius: 6px; background: transparent; color: #CECDC3; font-size: 0.875rem; font-weight: 600; cursor: pointer; transition: filter 0.2s; } .ds-btn-outline:hover { filter: brightness(0.75); } .ds-btn-outline:focus-visible { outline: 2px solid #DA702C; outline-offset: 2px; }"
+    },
+    {
+      "name": "Glass Card",
+      "kind": "card",
+      "refersTo": "card-glass",
+      "description": "Primary container. Base background with backdrop blur and Surface border.",
+      "html": "<div class=\"ds-card-glass\"><h3 class=\"ds-card-glass-title\">frontend ✨</h3><p class=\"ds-card-glass-body\">Frontend development is my specialty.</p></div>",
+      "css": ".ds-card-glass { display: flex; flex-direction: column; gap: 12px; padding: 24px 32px; border-radius: 12px; border: 1px solid #282726; background: #1C1B1A; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); color: #CECDC3; } .ds-card-glass-title { font-size: 1.125rem; font-weight: 600; line-height: 1.3; margin: 0; } .ds-card-glass-body { font-size: 0.875rem; line-height: 1.75; color: #6F6E6C; margin: 0; }"
+    },
+    {
+      "name": "Paper Card",
+      "kind": "card",
+      "refersTo": "card-paper",
+      "description": "High-contrast container. Flexoki Paper background for light surfaces.",
+      "html": "<div class=\"ds-card-paper\"><h3 class=\"ds-card-paper-title\">brand design</h3><p class=\"ds-card-paper-body\">I've designed 20+ logo and brand identities.</p></div>",
+      "css": ".ds-card-paper { display: flex; flex-direction: column; gap: 12px; padding: 24px 32px; border-radius: 12px; background: #FFFCF0; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); color: #100F0F; } .ds-card-paper-title { font-size: 1.125rem; font-weight: 600; line-height: 1.3; margin: 0; color: #100F0F; } .ds-card-paper-body { font-size: 0.875rem; line-height: 1.75; margin: 0; color: #6F6E6C; }"
+    },
+    {
+      "name": "Carousel Dot",
+      "kind": "custom",
+      "refersTo": "carousel-dot",
+      "description": "Project carousel pagination indicator.",
+      "html": "<div style=\"display:flex;gap:8px\"><button class=\"ds-dot\" aria-current=\"true\"></button><button class=\"ds-dot\" aria-current=\"false\"></button><button class=\"ds-dot\"></button></div>",
+      "css": ".ds-dot { width: 8px; height: 8px; border-radius: 9999px; border: none; background: #282726; cursor: pointer; padding: 0; transition: background-color 0.2s; } .ds-dot:hover { background: #343331; } .ds-dot[aria-current=\"true\"] { background: #CECDC3; }"
+    },
+    {
+      "name": "External Link",
+      "kind": "custom",
+      "refersTo": "link-external",
+      "description": "Inline external link with underline and external-link icon.",
+      "html": "<a class=\"ds-link-ext\" href=\"#\">linkedin<svg class=\"ds-link-icon\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/></svg></a>",
+      "css": ".ds-link-ext { display: inline-flex; align-items: center; gap: 4px; font-size: 0.875rem; color: #CECDC3; text-decoration: underline; } .ds-link-ext:hover { opacity: 0.8; } .ds-link-icon { flex-shrink: 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Studio Wall",
+    "overview": "A personal portfolio that reads like a maker's wall: works pinned in progress, tools laid out, warm light over a dark room. The Studio Wall is confident in what it shows and warm in how it shows it. The system uses the Flexoki palette \u2014 a warm, ink-on-paper color system built for readability. The dark canvas is proper ink-black, with layered surfaces stepping through Flexoki's base-surface-overlay scale. Content sits on tinted glass panes that catch light through backdrop blur.",
+    "keyCharacteristics": [
+      "Flexoki dark palette as the foundation \u2014 warm ink tones, not cold grays",
+      "Backdrop blur replaces shadow for depth",
+      "Scroll-reveal animations that feel physical, not decorative",
+      "Typography-led hierarchy with a sans-serif workhorse and serif accent",
+      "Color chosen from the Flexoki accent set for coherence"
+    ],
+    "rules": [
+      { "name": "The Flexoki Rule", "body": "Every neutral on the site must be one of the seven Flexoki dark neutrals (Ink, Base, Surface, Overlay, Text, Subtle, Muted). No arbitrary grays. Accents must be drawn from the Flexoki chromatic set.", "section": "colors" },
+      { "name": "The Glass-Over-Ink Rule", "body": "Every surface is either tinted glass (Base background + backdrop-blur + Surface border) or Paper. No flat gray cards.", "section": "colors" }
+    ],
+    "dos": [
+      "Do use Flexoki dark neutrals for all grays. No Tailwind neutral scale colors.",
+      "Do use backdrop-blur and the Base/Surface/Overlay scale for depth.",
+      "Do draw accents from the Flexoki chromatic set (Red, Orange, Yellow, Green, Cyan, Blue, Purple, Magenta).",
+      "Do use the orange accent sparingly."
+    ],
+    "donts": [
+      "Don't use arbitrary hex grays outside the Flexoki palette.",
+      "Don't use box-shadow for elevation.",
+      "Don't animate layout properties. Transforms only.",
+      "Don't add filled buttons.",
+      "Don't use card grids with identical icon + heading + text patterns."
+    ]
+  }
+}

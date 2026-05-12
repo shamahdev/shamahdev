@@ -24,7 +24,7 @@ function resolveIcon(filename: string) {
 ---
 
 <div class="flex flex-col gap-4">
-  <h2 class="text-lg font-semibold text-neutral-100">selected projects</h2>
+  <h2 class="text-lg font-semibold text-[#CECDC3]">selected projects</h2>
 
   <div class="w-full" data-projects-embla>
     <div class="overflow-hidden" data-embla-viewport>
@@ -32,21 +32,21 @@ function resolveIcon(filename: string) {
         {
           sorted.map((project) => (
             <div class="pl-4 flex-[0_0_100%] md:flex-[0_0_50%] lg:flex-[0_0_33.3333%]">
-              <div class="bg-black/15 backdrop-blur hover:bg-black/20 transition-colors border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full select-none h-full">
+              <div class="bg-[#1C1B1A] backdrop-blur hover:bg-[#282726] transition-colors border border-[#282726] rounded-xl py-6 px-8 flex flex-col justify-between w-full select-none h-full">
                 <div class="flex flex-col gap-3">
                   <a
                     href={project.data.url}
-                    class="font-semibold text-neutral-100 flex w-full justify-between items-center"
+                    class="font-semibold text-[#CECDC3] flex w-full justify-between items-center"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
                     {project.data.title}
                     <Icon name="lucide:external-link" size={16} />
                   </a>
-                  <p class="text-sm text-neutral-400 leading-loose">
+                  <p class="text-sm text-[#6F6E6C] leading-loose">
                     {project.data.description}
                   </p>
-                  <p class="text-xs text-neutral-100">{project.data.year}</p>
+                  <p class="text-xs text-[#CECDC3]">{project.data.year}</p>
                   <div class="flex gap-4 py-2 shrink-0 flex-wrap">
                     {project.data.icons?.map((icon) => (
                       <Picture
@@ -102,7 +102,7 @@ function resolveIcon(filename: string) {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className =
-      'h-2 w-2 rounded-full bg-neutral-700 aria-[current="true"]:bg-neutral-100 transition-colors';
+      'h-2 w-2 rounded-full bg-[#282726] aria-[current="true"]:bg-[#CECDC3] transition-colors';
     btn.setAttribute("aria-label", `Go to slide ${index + 1}`);
     btn.addEventListener("click", () => embla.scrollTo(index));
     return btn;

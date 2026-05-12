@@ -26,11 +26,11 @@ const { Content } = await post.render();
       <main class="w-full flex flex-col gap-8">
         <div class="flex items-start justify-between gap-4">
           <div class="flex flex-col gap-2">
-            <h1 class="text-[32px] text-neutral-100 font-bold">
+            <h1 class="text-[32px] text-[#CECDC3] font-bold">
               {post.data.title}
             </h1>
-            <p class="text-sm text-neutral-400">{post.data.description}</p>
-            <p class="text-xs text-neutral-500">
+            <p class="text-sm text-[#6F6E6C]">{post.data.description}</p>
+            <p class="text-xs text-[#878580]">
               {
                 post.data.pubDate.toLocaleDateString("en-US", {
                   year: "numeric",
@@ -40,7 +40,7 @@ const { Content } = await post.render();
               }
             </p>
           </div>
-          <a href="/blog" class="text-sm text-neutral-100 underline"
+          <a href="/blog" class="text-sm text-[#CECDC3] underline"
             >all posts</a
           >
         </div>
