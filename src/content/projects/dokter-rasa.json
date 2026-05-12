@@ -4,10 +4,10 @@
   "year": 2021,
   "url": "https://dokterrasa.web.app/",
   "icons": [
-    "/images/icon/ic-webpack.png",
-    "/images/icon/ic-pwa.png",
-    "/images/icon/ic-sass.png",
-    "/images/icon/ic-jasmine.png",
-    "/images/icon/ic-karma.png"
+    "ic-webpack.png",
+    "ic-pwa.png",
+    "ic-sass.png",
+    "ic-jasmine.png",
+    "ic-karma.png"
   ]
 }

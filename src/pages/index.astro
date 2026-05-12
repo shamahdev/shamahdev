@@ -1,11 +1,22 @@
 ---
 import { getCollection } from "astro:content";
 import { Icon } from "astro-icon/components";
+import { Picture } from "astro:assets";
 import Container from "@/components/Container.astro";
 import Hero from "@/components/Hero.astro";
 import ProjectsCarousel from "@/components/ProjectsCarousel.astro";
 import WorkExperienceSection from "@/components/WorkExperienceSection.astro";
 import Layout from "@/layouts/Layout.astro";
+
+import shamahdevImg from "@/assets/shamahdev.png";
+import arNestleImg from "@/assets/ar-nestle.png";
+import arSentralImg from "@/assets/ar-sentral.png";
+import arWyethImg from "@/assets/ar-wyeth.png";
+import workSmeshubImg from "@/assets/work-smeshub.png";
+import brandMantenkuhImg from "@/assets/brand-mantenkuh.png";
+import brandSiomayImg from "@/assets/brand-siomay.png";
+import brandPrintingmartImg from "@/assets/brand-printingmart.png";
+import brandArtireImg from "@/assets/brand-artire.png";
 
 const projects = await getCollection("projects");
 ---
@@ -15,11 +26,9 @@ const projects = await getCollection("projects");
 		<Container>
 			<main class="w-full flex flex-col gap-24">
 				<div class="flex flex-col gap-16 pt-12">
-					<img
-						src="/images/shamahdev.png"
+					<Picture
+						src={shamahdevImg}
 						alt="Shaddam Amru Hasibuan"
-						width={32}
-						height={32}
 						loading="eager"
 						decoding="async"
 					/>
@@ -51,7 +60,7 @@ const projects = await getCollection("projects");
 					</div>
 				</div>
 
-				<div class="flex flex-col lg:flex-row gap-4 w-full min-h-[450px]">
+				<div class="flex flex-col lg:flex-row gap-4 w-full min-h-112.5">
 					<div
 						class="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full"
 					>
@@ -112,11 +121,9 @@ const projects = await getCollection("projects");
 								class="relative"
 								style="width: 63.5px; aspect-ratio: 63.5 / 40;"
 							>
-								<img
-									src="/images/ar-nestle.png"
+								<Picture
+									src={arNestleImg}
 									alt="Nestle"
-									width={64}
-									height={40}
 									loading="eager"
 									decoding="async"
 									style="object-fit: contain;"
@@ -126,11 +133,9 @@ const projects = await getCollection("projects");
 								class="relative"
 								style="width: 66.5px; aspect-ratio: 66.5 / 40;"
 							>
-								<img
-									src="/images/ar-sentral.png"
+								<Picture
+									src={arSentralImg}
 									alt="Sentral Tunjungan"
-									width={67}
-									height={40}
 									loading="eager"
 									decoding="async"
 									style="object-fit: contain;"
@@ -140,11 +145,9 @@ const projects = await getCollection("projects");
 								class="relative"
 								style="width: 135px; aspect-ratio: 135 / 40;"
 							>
-								<img
-									src="/images/ar-wyeth.png"
+								<Picture
+									src={arWyethImg}
 									alt="Wyeth Nutrition"
-									width={135}
-									height={40}
 									loading="eager"
 									decoding="async"
 									style="object-fit: contain;"
@@ -167,11 +170,9 @@ const projects = await getCollection("projects");
 						</div>
 						<div class="flex flex-wrap w-full gap-4 items-center">
 							<div class="relative" style="width: 96px; aspect-ratio: 96 / 24;">
-								<img
-									src="/images/work-smeshub.png"
+								<Picture
+									src={workSmeshubImg}
 									alt="Smeshub"
-									width={96}
-									height={24}
 									loading="eager"
 									decoding="async"
 									style="object-fit: contain;"
@@ -181,11 +182,9 @@ const projects = await getCollection("projects");
 								class="relative"
 								style="width: 106px; aspect-ratio: 106 / 40;"
 							>
-								<img
-									src="/images/brand-mantenkuh.png"
+								<Picture
+									src={brandMantenkuhImg}
 									alt="Mantenkuh"
-									width={106}
-									height={40}
 									loading="eager"
 									decoding="async"
 									style="object-fit: contain;"
@@ -195,11 +194,9 @@ const projects = await getCollection("projects");
 								class="relative"
 								style="width: 58.5px; aspect-ratio: 58.5 / 40;"
 							>
-								<img
-									src="/images/brand-siomay.png"
+								<Picture
+									src={brandSiomayImg}
 									alt="Somay Lonjong"
-									width={59}
-									height={40}
 									loading="eager"
 									decoding="async"
 									style="object-fit: contain;"
@@ -209,22 +206,18 @@ const projects = await getCollection("projects");
 								class="relative"
 								style="width: 114.5px; aspect-ratio: 114.5 / 40;"
 							>
-								<img
-									src="/images/brand-printingmart.png"
+								<Picture
+									src={brandPrintingmartImg}
 									alt="printingmart"
-									width={115}
-									height={40}
 									loading="eager"
 									decoding="async"
 									style="object-fit: contain;"
 								/>
 							</div>
 							<div class="relative" style="width: 70px; aspect-ratio: 70 / 40;">
-								<img
-									src="/images/brand-artire.png"
+								<Picture
+									src={brandArtireImg}
 									alt="Artire"
-									width={70}
-									height={40}
 									loading="eager"
 									decoding="async"
 									style="object-fit: contain;"

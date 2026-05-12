@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { Icon } from "astro-icon/components";
+import { Picture } from "astro:assets";
 
 type Project = CollectionEntry<"projects">;
 
@@ -11,6 +12,15 @@ type Props = {
 const { projects } = Astro.props;
 
 const sorted = [...projects].sort((a, b) => b.data.year - a.data.year);
+
+const iconModules = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/assets/icon/*.png",
+  { eager: true }
+);
+
+function resolveIcon(filename: string) {
+  return iconModules[`/src/assets/icon/${filename}`]?.default;
+}
 ---
 
 <div class="flex flex-col gap-4">
@@ -39,12 +49,10 @@ const sorted = [...projects].sort((a, b) => b.data.year - a.data.year);
                   <p class="text-xs text-neutral-100">{project.data.year}</p>
                   <div class="flex gap-4 py-2 shrink-0 flex-wrap">
                     {project.data.icons?.map((icon) => (
-                      <img
-                        src={icon}
+                      <Picture
+                        src={resolveIcon(icon)}
                         alt=""
-                        width={
-                          icon === "/images/icon/ic-midtrans.png" ? 72 : 20
-                        }
+                        width={icon === "ic-midtrans.png" ? 72 : 20}
                         height={20}
                         loading="lazy"
                         decoding="async"

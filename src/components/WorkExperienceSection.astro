@@ -1,3 +1,22 @@
+---
+import { Picture } from "astro:assets";
+
+import airmasImg from "@/assets/work-airmas.jpg";
+import saltImg from "@/assets/work-salt.png";
+import bddImg from "@/assets/work-bdd.png";
+import kampusmerdekaImg from "@/assets/work-kampusmerdeka.png";
+import studidevsecopsImg from "@/assets/work-studidevsecops.png";
+import smeshubImg from "@/assets/work-smeshub.png";
+import dicodingImg from "@/assets/work-dicoding.png";
+import saltDashboardImg from "@/assets/salt/dashboard.png";
+import saltAppImg from "@/assets/salt/app.png";
+import smeshubWeb1Img from "@/assets/smeshub/web-1.png";
+import smeshubWeb2Img from "@/assets/smeshub/web-2.png";
+import smeshubWeb3Img from "@/assets/smeshub/web-3.png";
+import dicodingCer1Img from "@/assets/dicoding/cer-1.png";
+import dicodingCer2Img from "@/assets/dicoding/cer-2.png";
+---
+
 <div class="flex flex-col gap-4">
   <h2 class="text-lg font-semibold text-neutral-100">work experiences</h2>
 
@@ -7,14 +26,13 @@
         class="bg-[#082243]/95 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8"
       >
         <div class="flex gap-4 items-center flex-wrap">
-          <img
-            src="/images/work-airmas.jpg"
+          <Picture
+            src={airmasImg}
             alt="Airmas Group"
-            width="60"
-            height="60"
-            sizes="60px"
             loading="eager"
             decoding="async"
+            style="object-fit: contain;"
+            width={60}
           />
         </div>
         <div class="flex flex-col gap-3">
@@ -36,14 +54,13 @@
         class="bg-black/15 backdrop-blur border border-neutral-900 rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden"
       >
         <div class="flex gap-4 items-center flex-wrap">
-          <img
-            src="/images/work-salt.png"
+          <Picture
+            src={saltImg}
             alt="Salt Indonesia"
-            width="50"
-            height="24"
-            sizes="50px"
             loading="eager"
             decoding="async"
+            style="object-fit: contain;"
+            width={60}
           />
         </div>
         <div class="flex flex-col gap-3">
@@ -62,29 +79,29 @@
         <div class="flex w-full gap-2 absolute -bottom-8 -right-16 items-end">
           <div class="relative motion-inview" data-from-y="50%">
             <div class="relative" style="width: 360px;">
-              <img
-                src="/images/salt/dashboard.png"
+              <Picture
+                src={saltDashboardImg}
                 alt="Salt Indonesia Dashboard"
-                width="360"
-                height="252"
+                widths={[360, 720]}
                 sizes="360px"
                 loading="lazy"
                 decoding="async"
                 style="object-fit: cover;"
+                layout="constrained"
               />
             </div>
           </div>
           <div class="relative motion-inview" data-from-y="80%">
             <div class="relative" style="width: 160px;">
-              <img
-                src="/images/salt/app.png"
+              <Picture
+                src={saltAppImg}
                 alt="Salt Indonesia Mobile App"
-                width="160"
-                height="346"
+                widths={[160, 320]}
                 sizes="160px"
                 loading="lazy"
                 decoding="async"
                 style="object-fit: cover;"
+                layout="constrained"
               />
             </div>
           </div>
@@ -95,32 +112,29 @@
         class="bg-white/95 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8"
       >
         <div class="flex gap-4 items-center flex-wrap">
-          <img
-            src="/images/work-bdd.png"
+          <Picture
+            src={bddImg}
             alt="BDD"
-            width="50"
-            height="24"
-            sizes="50px"
             loading="eager"
             decoding="async"
+            style="object-fit: contain;"
+            width={60}
           />
-          <img
-            src="/images/work-kampusmerdeka.png"
+          <Picture
+            src={kampusmerdekaImg}
             alt="Kampus Merdeka x Dicoding"
-            width="70"
-            height="24"
-            sizes="70px"
             loading="eager"
             decoding="async"
+            style="object-fit: contain;"
+            width={60}
           />
-          <img
-            src="/images/work-studidevsecops.png"
+          <Picture
+            src={studidevsecopsImg}
             alt="Studidevsecops"
-            width="90"
-            height="24"
-            sizes="90px"
             loading="eager"
             decoding="async"
+            style="object-fit: contain;"
+            width={120}
           />
         </div>
         <div class="flex flex-col gap-3">
@@ -144,14 +158,13 @@
         class="from-white/95 via-white/95 to-[#FF621F]/95 bg-linear-to-b backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden"
       >
         <div class="flex gap-4 items-center flex-wrap">
-          <img
-            src="/images/work-smeshub.png"
+          <Picture
+            src={smeshubImg}
             alt="Smeshub"
-            width="100"
-            height="24"
-            sizes="100px"
             loading="eager"
             decoding="async"
+            style="object-fit: contain;"
+            width={120}
           />
         </div>
         <div class="flex flex-col gap-3">
@@ -171,43 +184,43 @@
         >
           <div class="relative motion-inview" data-from-y="150px">
             <div class="relative" style="width: 300px;">
-              <img
-                src="/images/smeshub/web-1.png"
+              <Picture
+                src={smeshubWeb1Img}
                 alt="Smeshub Platform - Profile Dashboard"
-                width="300"
-                height="302"
+                widths={[300, 600]}
                 sizes="300px"
                 loading="lazy"
                 decoding="async"
                 style="object-fit: cover;"
+                layout="constrained"
               />
             </div>
           </div>
           <div class="relative motion-inview" data-from-y="100px">
             <div class="relative" style="width: 300px;">
-              <img
-                src="/images/smeshub/web-2.png"
+              <Picture
+                src={smeshubWeb2Img}
                 alt="Smeshub Platform - Landing Page"
-                width="300"
-                height="417"
+                widths={[300, 600]}
                 sizes="300px"
                 loading="lazy"
                 decoding="async"
                 style="object-fit: cover;"
+                layout="constrained"
               />
             </div>
           </div>
           <div class="relative motion-inview" data-from-y="150px">
             <div class="relative" style="width: 300px;">
-              <img
-                src="/images/smeshub/web-3.png"
+              <Picture
+                src={smeshubWeb3Img}
                 alt="Smeshub Platform - Enterprise Page"
-                width="300"
-                height="306"
+                widths={[300, 600]}
                 sizes="300px"
                 loading="lazy"
                 decoding="async"
                 style="object-fit: cover;"
+                layout="constrained"
               />
             </div>
           </div>
@@ -218,14 +231,13 @@
         class="bg-[#15304E]/50 backdrop-blur rounded-xl py-6 px-8 flex flex-col justify-between w-full gap-8 relative overflow-hidden"
       >
         <div class="flex gap-4 items-center flex-wrap">
-          <img
-            src="/images/work-dicoding.png"
+          <Picture
+            src={dicodingImg}
             alt="Dicoding"
-            width="100"
-            height="24"
-            sizes="100px"
             loading="eager"
             decoding="async"
+            style="object-fit: contain;"
+            width={120}
           />
         </div>
         <div class="flex flex-col gap-3">
@@ -243,29 +255,29 @@
         <div class="flex w-full gap-2 absolute bottom-0">
           <div class="relative motion-inview" data-from-y="50%">
             <div class="relative" style="width: 280px;">
-              <img
-                src="/images/dicoding/cer-1.png"
+              <Picture
+                src={dicodingCer1Img}
                 alt="Dicoding Academy Reviewer Certificate 2020"
-                width="280"
-                height="187"
+                widths={[280, 560]}
                 sizes="280px"
                 loading="lazy"
                 decoding="async"
                 style="object-fit: cover;"
+                layout="constrained"
               />
             </div>
           </div>
           <div class="relative motion-inview" data-from-y="80%">
             <div class="relative" style="width: 280px;">
-              <img
-                src="/images/dicoding/cer-2.png"
+              <Picture
+                src={dicodingCer2Img}
                 alt="Dicoding Academy Reviewer Certificate 2021"
-                width="280"
-                height="187"
+                widths={[280, 560]}
                 sizes="280px"
                 loading="lazy"
                 decoding="async"
                 style="object-fit: cover;"
+                layout="constrained"
               />
             </div>
           </div>

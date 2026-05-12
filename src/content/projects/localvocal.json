@@ -4,11 +4,11 @@
   "year": 2023,
   "url": "https://github.com/localvocalid",
   "icons": [
-    "/images/icon/ic-medusa.png",
-    "/images/icon/ic-nextjs.png",
-    "/images/icon/ic-react.png",
-    "/images/icon/ic-tailwind.png",
-    "/images/icon/ic-postgres.png",
-    "/images/icon/ic-digitalocean.png"
+    "ic-medusa.png",
+    "ic-nextjs.png",
+    "ic-react.png",
+    "ic-tailwind.png",
+    "ic-postgres.png",
+    "ic-digitalocean.png"
   ]
 }

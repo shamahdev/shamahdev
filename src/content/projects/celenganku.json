@@ -4,10 +4,10 @@
   "year": 2021,
   "url": "https://github.com/shamahdev/celenganku",
   "icons": [
-    "/images/icon/ic-firebase.png",
-    "/images/icon/ic-webpack.png",
-    "/images/icon/ic-pwa.png",
-    "/images/icon/ic-tailwind.png",
-    "/images/icon/ic-midtrans.png"
+    "ic-firebase.png",
+    "ic-webpack.png",
+    "ic-pwa.png",
+    "ic-tailwind.png",
+    "ic-midtrans.png"
   ]
 }
