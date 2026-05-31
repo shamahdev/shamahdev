@@ -12,7 +12,7 @@ I am a software engineer specialized in frontend development with React & TypeSc
 
 ```txt
 TSX          5 hrs 35 mins         ████████████▓░░░░░░░░░░░░   51.07 %
-Typescript   2 hrs 49 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.82 %
+Typescript   2 hrs 49 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.83 %
 Unknown      1 hrs 0 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.10 %
 Markdown     0 hrs 27 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.08 %
 Json         0 hrs 27 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.06 %
